@@ -1,0 +1,24 @@
+h1 {
+    color:red;
+    font-size: 20pt;    /*comentarios*/
+}
+
+p {
+    color:pink;
+    font-size: 30pt;  
+}
+
+#noticia2 {                /*id*/
+    color: brown;
+    font-size: 12pt;          
+}
+
+.encabezado {              /*class*/
+    font-size: 20pt;
+    text-transform: uppercase;
+}
+
+*{                         /*todo que no este definido*/
+    color: gray
+}
+
