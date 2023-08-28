@@ -2,13 +2,13 @@
 
 html{
     font-family: 'Lora';
+
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 
 /*FONDO*/
 body{
@@ -59,25 +59,6 @@ body{
     }
 }
 
-/*PRESENTACION*/
-.presentacion{
-    text-align: center;
-    background: none; 
-    color: #000; 
-    font-size: 20px;
-    z-index: 2;
-    transform: translateY(200px);
-}
-
-/*DESCRIPCION*/
-.descripcion{
-    text-align: center;
-    background: none; 
-    color: #000; 
-    font-size: 20px;
-    z-index: 2;
-    transform: translateY(200px);
-}
 
 /*MENU*/
 .nav {
@@ -132,3 +113,200 @@ body{
     color: #08c4e1;
 }
 
+
+/*PRESENTACION*/
+.presentacion{
+    text-align: center;
+    background: none; 
+    color: #000; 
+    font-size: 20px;
+    z-index: 2;
+    transform: translateY(200px);
+    
+}   
+
+/*PROYECTOS*/
+.proyectos{
+    text-align: center;
+    background: none; 
+    color: #000; 
+    font-size: 20px;
+    z-index: 2;
+    transform: translateY(200px);
+
+}
+
+/*INFORMACION*/
+.informacion{
+    text-align: center;
+    background: none; 
+    color: #000; 
+    font-size: 20px;
+    z-index: 2;
+    transform: translateY(200px);
+
+}
+
+/*CONTACTO*/
+.contacto{
+    text-align: center;
+    background: none; 
+    color: #000; 
+    font-size: 20px;
+    z-index: 2;
+    transform: translateY(200px);
+
+}
+
+.botones{
+    align-self: flex-start;
+    gap: 20px;
+    cursor:pointer;
+}
+.botones:hover {
+    opacity: 0.75;
+}
+.gmail{
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+.gmail span{
+    color: black;
+    font-weight: 500;
+    padding: 15;
+}
+.gmail picture{
+    width: 35px;
+    height: 10px;
+    background-color: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gmail picture img{
+    width: 85%;
+}
+
+.facebook{
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+.facebook span{
+    color: black;
+    font-weight: 500;
+    padding: 15;
+}
+
+.facebook picture{
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.facebook picture img{
+    width: 85%;
+}
+
+.github{
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.github span{
+    color: black;
+    font-weight: 500;
+    padding: 15;
+}
+.github picture{
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.github picture img{
+    width: 85%;
+}
+
+.linkedin{
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.linkedin span{
+    color: black;
+    font-weight: 500;
+    padding: 15;
+}
+
+.linkedin picture{
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkedin picture img{
+    width: 85%;
+}
+
+.instagram{
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.instagram span{
+    color: black;
+    font-weight: 500;
+    padding: 15;
+}
+
+.instagram picture{
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instagram picture img{
+    width: 85%;
+}
