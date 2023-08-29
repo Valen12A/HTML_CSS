@@ -2,7 +2,8 @@
 
 html{
     font-family: 'Lora';
-
+    margin: 0;
+    padding: 0;
 }
 *{
     margin: 0;
@@ -112,6 +113,14 @@ body{
 .menu a:hover {
     color: #08c4e1;
 }
+/*ENCABEZADO*/
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
 
 
 /*PRESENTACION*/
@@ -122,7 +131,11 @@ body{
     font-size: 20px;
     z-index: 2;
     transform: translateY(200px);
-    
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 3rem;
+    top: 20px;
+
 }   
 
 /*PROYECTOS*/
@@ -133,6 +146,9 @@ body{
     font-size: 20px;
     z-index: 2;
     transform: translateY(200px);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
 
 }
 
@@ -144,6 +160,9 @@ body{
     font-size: 20px;
     z-index: 2;
     transform: translateY(200px);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
 
 }
 
@@ -155,6 +174,9 @@ body{
     font-size: 20px;
     z-index: 2;
     transform: translateY(200px);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
 
 }
 
@@ -309,4 +331,13 @@ body{
 
 .instagram picture img{
     width: 85%;
+}
+
+/*PIE DE PAGINA */
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    padding: 1rem;
 }

@@ -11,6 +11,7 @@
     <body>
         
         <div class="primer div">
+
             <div class="nav">
                 <input type="checkbox" id="nav">
                 <label for="nav" class="hamburger">
@@ -20,14 +21,18 @@
                 </label>
                 <nav class="menu">
                     <ul>
-                        <li><a href="#Home">Home</a></li>
-                        <li><a href="#Proyectos">Proyectos</a></li>
-                        <li><a href="#Informacion">Informacion</a></li>
-                        <li><a href="#Contacto">Contacto</a></li>
+                        <li class="home"><a href="#Home">Home</a></li>
+                        <li class="proyecto"><a href="#Proyectos">Proyectos</a></li>
+                        <li class="informacion"><a href="#Informacion">Informacion</a></li>
+                        <li class="contacto"><a href="#Contacto">Contacto</a></li>
                     </ul>
                 </nav>
-        </div>
+            </div>
         <div class="fondo">
+            <header>
+                <h1>PORTAFOLIO DE DESARROLLADOR</h1>
+                <p>¡Bienvenido!</p>
+            </header>
             <div id="Home"> 
                 <div class="presentacion">
                     <h1>¡HOLA!</h1>
@@ -48,10 +53,10 @@
             <div id="Informacion">
                 <div class="informacion">
                     <h1>INFORMACIÓN</h1>
-                    <ol>
-                        <li><a href="https://drive.google.com/drive/folders/1dFlqT7Nzt3KKrr5DPs9i6VYfy-wl7Zh2?usp=drive_link">CURRICULUM VITAE</a></li>
-                        <li><a href="#">Educación</a></li>
-                    </ol>
+                    <ul>
+                        <section><a href="https://drive.google.com/drive/folders/1dFlqT7Nzt3KKrr5DPs9i6VYfy-wl7Zh2?usp=drive_link">CURRICULUM VITAE</a></section>
+                        <section><a href="#">Educación</a></section>
+                    </ul>
                 </div>
             </div>
 
@@ -82,8 +87,9 @@
                 <div class="contacto">
                     <ol class="botones">
                         <h1>CONTACTO</h1>
-            
-                        <button class="gmail">
+                        <a href="#formulario">Mostrar Formulario</a>
+
+                        <button id="formulario" class="gmail">
                             <picture>
                                 <img src="../multimedia/Gmail.png" alt="Gmail">
                             </picture>
@@ -119,6 +125,9 @@
                     </ol>
                 </div> 
             </div>
+            <footer>
+                <p>Derechos de autor &copy; 2023 | Portafolio</p>
+            </footer>
 
         </div>
         

@@ -1,0 +1,326 @@
+
+/*MENU*/
+.nav {
+    background-color: #706fd3;
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hamburger {
+    display: inline-block;
+    cursor:pointer;
+}
+.barra {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    margin: 5px 0;
+    transition: 0.2s;
+}
+#nav:checked + .hamburger .barra:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+#nav:checked + .hamburger .barra:nth-child(2) {
+    opacity: 0;
+}
+#nav:checked + .hamburger .barra:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+.menu {
+    display: none;
+}
+#nav:checked + .hamburger ~ .menu {
+    display: block;
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu li {
+    padding: 10px;
+}
+.menu a {
+    text-decoration: none;
+    color:black;
+    transition: 0.2s;
+}
+.menu a:hover {
+    color: #08c4e1;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,500&display=swap');
+
+
+/* BODY */
+body {
+    font-family: 'Lora';
+    margin: 0;
+    padding: 0;
+}
+
+/* ENCABEZADO */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* SECCIONES */
+.seccion1 {
+    padding: 12rem;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    font-size: 20px;
+}
+.seccion2 {
+    padding: 13rem;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    font-size: 20px;
+}
+.seccion3 {
+    padding: 13rem;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    font-size: 20px;
+}
+.seccion4 {
+    padding: 13rem;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* PIE DE PAGINA*/
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 20px;
+}
+
+/*BOTONES*/
+
+
+.gmail{
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor:pointer;
+}
+.gmail span{
+    color: black;
+    font-weight: 500;
+    padding: 15;
+}
+.gmail picture{
+    width: 35px;
+    height: 10px;
+    background-color: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+}
+.gmail picture img{
+    width: 85%;
+}
+.gmail:hover {
+    background-color: rgba(189, 189, 189, 0.774);
+}
+
+.facebook{
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor:pointer;
+}
+.facebook span{
+    color: black;
+    font-weight: 500;
+    padding: 15;
+}
+
+.facebook picture{
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.facebook picture img{
+    width: 85%;
+}
+
+.facebook:hover {
+    background-color: rgba(189, 189, 189, 0.774);
+}
+
+.github{
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor:pointer;
+}
+
+.github span{
+    color: black;
+    font-weight: 500;
+    padding: 15;
+}
+.github picture{
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.github picture img{
+    width: 85%;
+}
+
+.github:hover {
+    background-color: rgba(189, 189, 189, 0.774);
+}
+
+.linkedin{
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor:pointer;
+}
+
+.linkedin span{
+    color: black;
+    font-weight: 500;
+    padding: 15;
+}
+
+.linkedin picture{
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkedin picture img{
+    width: 85%;
+}
+
+.linkedin:hover {
+    background-color: rgba(189, 189, 189, 0.774);
+}
+
+.instagram{
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor:pointer;
+}
+
+.instagram span{
+    color: black;
+    font-weight: 500;
+    padding: 15;
+}
+
+.instagram picture{
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instagram picture img{
+    width: 85%;
+}   
+
+.instagram:hover {
+    background-color: rgba(189, 189, 189, 0.774);
+}
+
+.formulario {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.formulario h2 {
+    margin-bottom: 20px;
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+.campo label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.campo input,
+.campo textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.campo textarea {
+    height: 100px;
+}
+
+.boton {
+    text-align: center;
+}
+
+.boton button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
