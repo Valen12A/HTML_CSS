@@ -3,7 +3,7 @@ body {
     font-family: 'Oregano';
     margin: 0;
     padding: 0;
-    background-color: #70a1ff;
+    background: #82ccdd;
 }
 
 /*ENCABEZADO*/
@@ -46,7 +46,7 @@ header:hover{
 
 /*MENU*/
 .nav {
-    background: linear-gradient(45deg, #833471 0, #ff9ff3 100%);
+    background: linear-gradient(45deg,#7efff5 0, #cd84f1 100%);
     color: black;  
     padding: 10px;
     display: flex;
